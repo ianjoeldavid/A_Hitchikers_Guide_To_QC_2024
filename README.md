@@ -48,7 +48,7 @@ A virtual environment helps to manage project dependencies and avoid conflicts.
 2. Navigate to your project directory.
 3. Create a virtual environment:
    ```sh
-   python -m venv venv
+   python -m venv my_env_name_here
    ```
 4. Activate the virtual environment:
 
@@ -68,4 +68,22 @@ A virtual environment helps to manage project dependencies and avoid conflicts.
    ```sh
    pip install -r requirements.txt
    ```
+### Step 4: Clone this repo 
 
+1. Clone this repository and save it to a local folder of your choice.
+
+### Step 5: 
+
+In your command line while your virutal envirnoment is active,
+
+```
+jupyter notebook
+```
+
+This will open up the jupyter notebook interface where you can navigate to the folder where the notebook is stored and open the notebook.
+
+## Running the notebook using google colab
+
+Log into [Google Colab](https://colab.research.google.com) using your google account. Click on FILE and OPEN then select github and copy the repo URL into the text box and open the notebook. 
+
+You will also need to download all the CSV files and upload it to your google drive in the side pannel of colab so that you can use these files in your notebook.
